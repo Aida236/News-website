@@ -1,0 +1,138 @@
+﻿body {
+   
+    background: url(Images/back4.jpg) repeat 0 0 ;
+
+   
+}
+
+.login {
+    padding-left: 850px;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #ffe6b3; 
+    font-size: 300%;
+    line-height: 100px;
+    width: 381px;
+    margin-top: 0px;
+}
+
+ul {
+    
+   font-size: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    overflow: hidden;
+    background-color: #006bb3;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #0099ff;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #0099ff;
+     font-style: italic;
+    
+}
+
+#logo1 
+{
+     float: left;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 10px;
+    width: 7%;
+    height: 5%;
+  
+}
+
+#search { 
+    font-size: 100%;
+    line-height: 15px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#butonsearch {
+   
+    background-color:  #0099ff;
+    border-color:  #0099ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#butonsearch:hover {
+    font-style: italic;
+    background-color:  #0099ff;
+    border-color:  #0099ff;
+}
+
+.sectionhome {
+    background-color:  #006bb3;
+    opacity: 0.8;
+    border-radius:5px;
+    padding:40px;
+    float:  left;
+    
+
+}
+.titlu {
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.stire {
+   font-size: 20px;
+    font-family: 'Mirza', cursive;
+
+}
